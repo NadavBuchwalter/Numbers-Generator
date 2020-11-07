@@ -12,29 +12,27 @@ const int OCT=8,BIN=2,DEC=10;
 int charToInt(char c);
 int stringToInt(char number[ ], int base);
 int intToString(int num, char numStr[ ], int base);
-void printMenu(int base);
 int isValidDigit(int digit, int base);
 int enterNumber(int numbers[ ], int totalNums, int base);
 int find(int numbers[ ], int numKey, int totalNums);
 int howManyEven(int numbers[ ], int totalNums);
-void printArray(int numbers[], int totalNums);
-
 int isBIN(char number[ ]);
 int stringToBIN(char number[ ]);
 int stringToOCT(char number[ ]);
-
 int calcBaseToDec(char number[ ],int base);
 int calcDecToBase(char number[ ],int base);
 int sizeCheck(char number[],int base);
 int validMainPath(int choose);
-void printBinMenu(int base);
-void printOctMenu(int base);
 int enterNumber(int numbers[ ], int totalNums, int base);
-void printArray(int numbers[], int totalNums);
 int subMenu(int base);
 int conditionsCalc(char number[ ], int base);
-void bubbleSort(int numbers[], int totalNums);
 
+void bubbleSort(int numbers[], int totalNums);
+void printMenu(int base);
+void printArray(int numbers[], int totalNums);
+void printBinMenu(int base);
+void printOctMenu(int base);
+void printArray(int numbers[], int totalNums);
 
 
 int main()
